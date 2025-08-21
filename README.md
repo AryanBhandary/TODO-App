@@ -1,4 +1,4 @@
-# ✅ My Tasks 📝  
+# To Do App 📝  
 **_A Simple Task Management App with React and Tailwind CSS_**
 
 > 🚧 _This project is under active development. Features like task filtering, counters, and enhanced styling are implemented!_
