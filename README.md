@@ -1,69 +1,62 @@
-# React + TypeScript + Vite
+# To Do App 📝  
+**_A Simple Task Management App with React and Tailwind CSS_**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> 🚧 _This project is under active development. Features like task filtering, counters, and enhanced styling are implemented!_
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Project Overview
 
-## Expanding the ESLint configuration
+**My Tasks** is a lightweight web application that helps users manage daily tasks efficiently. You can add, complete, delete, and filter tasks while keeping track of active and completed tasks. The app is designed for simplicity and ease of use.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🧠 Project Goals
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- 📝 Add new tasks quickly  
+- ✅ Mark tasks as completed  
+- ❌ Delete tasks easily  
+- 🔄 Filter tasks by **All**, **Active**, and **Completed**  
+- 📊 Show task counters for quick overview  
+- 🎨 Use clean and responsive UI with Tailwind CSS  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 💻 Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Layer    | Technology                  |
+|----------|-----------------------------|
+| Frontend | React.js, Tailwind CSS      |
+| Backend  | None (Frontend-only app)    |
+| Database | Local state (useState hook)|
+| Status   | ✅ Ready                    |
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🏗️ Development Status
+
+| Feature                         | Status        |
+|---------------------------------|---------------|
+| Add new task                     | ✅ Done        |
+| Mark task as completed           | ✅ Done        |
+| Delete task                      | ✅ Done        |
+| Filter tasks (All/Active/Completed) | ✅ Done    |
+| Task counters                     | ✅ Done        |
+| Responsive UI                     | ✅ Done        |
+
+---
+
+## 📦 Setup Instructions
+
+> Prerequisites: Install **Node.js** and **npm**.
+
+```bash
+# Clone the repo
+git clone https://github.com/YOUR_USERNAME/my-tasks.git
+cd my-tasks
+
+# Install dependencies
+npm install
+
+# Start the app
+npm start
