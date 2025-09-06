@@ -52,7 +52,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/my-tasks.git
+git clone https://github.com/aryanbhandary/TODO-App.git
 cd my-tasks
 
 # Install dependencies
